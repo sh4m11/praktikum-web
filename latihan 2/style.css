@@ -1,0 +1,143 @@
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #004085;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Ready Screen */
+#ready-container {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#ready-container h4 {
+    font-size: 1.5rem;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+#start-quiz {
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#start-quiz:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Quiz Screen */
+#quiz-container {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#quiz-container h4 {
+    font-size: 1.4rem;
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+#options button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+    color: #007bff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#options button:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+}
+
+#feedback {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Feedback Colors */
+.text-success {
+    color: #28a745;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+/* Timer Styling */
+#timer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #d63384;
+}
+
+/* Score Screen */
+#score-container {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#score-container h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+#score-container button {
+    background-color: #6c757d;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#score-container button:hover {
+    background-color: #5a6268;
+    transform: scale(1.05);
+}
